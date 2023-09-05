@@ -50,20 +50,20 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
+                  sticky ? "py-3 lg:py-2" : "py-8"
                 } `}
               >
                 <Image
                   src="/images/logo/zorphixlogo.png"
                   alt="logo"
-                  width={140}
+                  width={400}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
                   src="/images/logo/zorphixlogo.png"
                   alt="logo"
-                  width={140}
+                  width={400}
                   height={30}
                   className="hidden w-full dark:block"
                 />
